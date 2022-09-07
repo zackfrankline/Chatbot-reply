@@ -1,0 +1,68 @@
+.greetings{
+    margin: 15px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.952);
+    padding-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+.greetImg img{
+    width: 117px;
+    height: 163px;
+    object-fit: cover;
+    object-position: top;
+    margin-right: 20px;
+    margin-left: -19px;
+}
+.greetLinksHere{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.leftLinks ul{
+    margin: 0px;
+    padding: 8px;
+}
+.rightLinks ul{
+    margin: 0px ;
+    padding: 8px ;
+}
+.leftLinks li{font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: xx-small;
+}
+.rightLinks li{font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: xx-small;
+}
+.inputContainer{
+    left: 0%;
+    bottom: 0%;
+    background: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    border-top: .5 solid black;
+  
+}
+.inputContainer input{
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.sendBtn{
+    border: 1px solid brown;
+    padding: 2px 3px;
+}
+.sendBtn p{
+    margin: 0%;
+    padding: 0%;
+}
